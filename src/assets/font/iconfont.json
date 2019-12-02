@@ -1,0 +1,58 @@
+{
+  "id": "1538809",
+  "name": "mypro",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "747121",
+      "name": "setting",
+      "font_class": "setting",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "7685353",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e755",
+      "unicode_decimal": 59221
+    },
+    {
+      "icon_id": "7712744",
+      "name": "username",
+      "font_class": "username",
+      "unicode": "e73f",
+      "unicode_decimal": 59199
+    },
+    {
+      "icon_id": "7766713",
+      "name": "icon_addperson",
+      "font_class": "icon_addperson",
+      "unicode": "eb8f",
+      "unicode_decimal": 60303
+    },
+    {
+      "icon_id": "7772178",
+      "name": "icon_boss_fill",
+      "font_class": "icon_boss_fill",
+      "unicode": "eba5",
+      "unicode_decimal": 60325
+    },
+    {
+      "icon_id": "10793064",
+      "name": "password",
+      "font_class": "password",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "11982645",
+      "name": "Settings, control, options",
+      "font_class": "Settingscontroloptions",
+      "unicode": "e9cb",
+      "unicode_decimal": 59851
+    }
+  ]
+}
