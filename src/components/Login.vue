@@ -54,7 +54,7 @@
 			//登录的事件
 			login(){
 				//先进性预验证
-				this.$refs.loginForm.validate( valid =>{
+				this.$refs.loginForm.validate( async valid =>{
 					console.log(valid) //结果是一个布尔值.true代表表单验证通过
 					//if(!valid) return console.log('有错误')
 					//给用户一个弹框信息
@@ -62,11 +62,8 @@
 					//预验证通过的时候,我们再真正的发送ajax调用后台接口进行验证
 					//我们要验证这个用户名和密码是都已经注册过了,如果没有注册依然不能登录
 					//登录后我们才能让他进入下一个主页
-					this.$message.success('登录成功');
 					//编程式导航,登录成功后让页面跳转到/home中
 					this.$router.push('/home');
-					
-					
 				});
 			},
 			//重置方法
@@ -75,6 +72,12 @@
 			}
 		}
 	}
+	
+	
+	
+	
+	
+	
 </script>
 
 <style scoped>
