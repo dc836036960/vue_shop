@@ -360,6 +360,10 @@
 			},
 			//点击确定后保存分配角色
 			async saveRoles(){
+				//判断用户是否有选择新角色
+				if(!this.rolesId){
+					return this.$message.info('请选择角色')
+				}
 				//发送ajax
 				const {data:res} = await this.$http.put(`users/${this.userInfos.id}/role`,{
 					rid:this.rolesId

@@ -31,7 +31,7 @@
 								<!--一级菜单的文字内容-->
 								<span>{{item.authName}}</span>
 							</template>
-							<el-menu-item :index="subItem.path" v-for='subItem in item.children' :key='subItem.id' @click="savepath(subItem.path)">
+							<el-menu-item :index=" '/' + subItem.path" v-for='subItem in item.children' :key='subItem.id' @click="savepath('/' + subItem.path)">
 								<template slot="title">
 									<i class="el-icon-menu"></i>
 									<span>{{subItem.authName}}</span>
